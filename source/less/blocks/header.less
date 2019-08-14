@@ -1,5 +1,4 @@
 .header {
-  display: flex;
   padding: 20px 0 20px;
   position: fixed;
   width: 100%;
@@ -8,27 +7,19 @@
   border-bottom: 1px solid #e3e3e3;
 }
 
-.container {
-  min-width: 1200px;
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
-.logo {
-  font-size: 24px;
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-}
-
-.main-menu {
-  text-align: right;
+.header__logo {
+  width: 100px;
+  height: 50px;
 }
 
 .list-inline {
@@ -45,4 +36,13 @@
   font-family: "Lato", sans-serif;
   font-weight: 700;
   line-height: 1.66;
+}
+
+.list-inline a {
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #337ab7;
+    border-bottom: 1px #337ab7 solid;
+  }
 }
