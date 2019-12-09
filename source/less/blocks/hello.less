@@ -1,0 +1,139 @@
+.hello {
+  margin-top: 91px;
+}
+
+.hello__wrap {
+  display: flex;
+}
+
+.hello__info {
+  width: 50%;
+  padding-right: 15px;
+}
+
+.hello__title {
+  position: relative;
+  font-size: 40px;
+  line-height: 1.25;
+  font-weight: 700;
+
+  &::after {
+    content: ".";
+    color: #3333ff;
+  }
+}
+
+.hello__info p {
+  font-size: 17px;
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+.hello__info a {
+  font-weight: 600;
+  color: #3333ff;
+
+  &:hover {
+    opacity: 0.7;
+    border-bottom: 1px #3333ff solid;
+  }
+}
+
+.hello__span_title {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.66;
+  opacity: 1;
+  color: black;
+}
+
+.hello__span_title + span,
+.hello__span_title + a {
+  padding-left: 90px;
+}
+
+.hello__icons {
+  display: flex;
+}
+
+.hello__icons a {
+  &:hover {
+    opacity: 1;
+    border-bottom: none;
+  }
+}
+
+.hello__info .hello__communication {
+  color: #252525;
+  font-size: 17px;
+  font-weight: 400;
+
+  &:hover {
+    border-bottom: none;
+    color: #3333ff;
+    opacity: 1;
+  }
+}
+
+.hello__icon {
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+
+  &:hover {
+    svg {
+      fill: #3333ff;
+      opacity: 1;
+    }
+  }
+}
+
+.hello__about_btns {
+  margin-top: 30px;
+  display: flex;
+}
+
+.hello__about_btns a {
+  color: #ffffff;
+
+  &:hover {
+    border: none;
+    opacity: 1;
+    box-shadow: 10px 10px 20px rgba(51, 51, 255, 0.6);
+  }
+}
+
+.hello__site_btn {
+  margin-right: 30px;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #3333ff;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  min-width: 170px;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
+
+.hello__about_btns .hello__site_btn-gray {
+  color: #252525;
+  background: #efefef;
+
+  &:hover {
+    border: none;
+    opacity: 1;
+    box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2);
+  }
+}
+
+.hello__image_wrap {
+  width: 50%;
+  padding-left: 15px;
+}

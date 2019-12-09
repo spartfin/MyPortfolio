@@ -3,21 +3,23 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="format-detection" content="telephone=no" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Алексей - Портфолио</title>
-  <link href="css/style-min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet" />
+  <base target="_blank">
+  <link href="css/style-min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic"
+    rel="stylesheet">
 </head>
 
 <body>
   <header class="header">
     <div class="header__container">
       <div class="header__logo">
-        <img src="/img/icon-logo.png" width="100" height="50" alt="Логотип Spartfin" />
+        <a href="#" target="_self"><img src="/img/icon-logo.png" width="100" height="50" alt="Логотип Spartfin"></a>
       </div>
-      <div class="main-menu">
-        <ul class="list-inline">
+      <div class="header__main-menu">
+        <ul class="header__list-inline">
           <li><a href="#hello">Знакомимся</a></li>
           <li><a href="#skills">Навыки</a></li>
           <li><a href="#experience">Опыт</a></li>
@@ -30,655 +32,652 @@
     </div>
   </header>
 
-  <!-- Mobile menu -->
-  <div class="mob-menu-wrapper hidden-md hidden-lg visually-hidden">
-    <div class="close-mob-menu">
-      <span><i class="mdi mdi-close" aria-hidden="true"></i></span>
-    </div>
-    <div class="mobile-menu">
-      <ul>
-        <li><a href="#hello">Hello</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#feedback">Feedback</a></li>
-        <li><a href="#contact">Contact me</a></li>
-      </ul>
-    </div>
-  </div>
-  <!-- Mobile menu -->
-
-  <section id="hello" class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 about-img-wrap">
-          <div class="about-img wow slideInRight">
-            <img src="media/hello-section/image.jpg" alt="" class="img-responsive" />
+  <main>
+    <section id="hello" class="hello section">
+      <div class="container">
+        <div class="hello__wrap">
+          <div class="hello__info">
+            <h1 class="hello__title">Я Алексей Горынь</h1>
+            <p>
+              Закончил курсы и успешно узащитил учебные проекты в <a href="https://htmlacademy.ru">Html Academy</a> по
+              профессии Фронтенд разработчик.
+              Проходил стажировку на реальных проектах в <a href="https://liga-a.ru">Лига А</a>, хотелось бы попасть в
+              команду более сильных разработчиков для развития навыков и роста своих знаний. Не интересует размер
+              зарплаты, интересует полученный опыт. Усидчивый, внимательный, целеустремлённый,
+              легкообучаемый, весёлый и общительный человек.
+            </p>
+            <p>
+              <span class="hello__span_title" >Телефон:</span>
+              <a class="hello__communication" href="tel:+7(926)40661452" target="_self">+7 (926) 406-61-45</a>
+            </p>
+            <p>
+              <span class="hello__span_title">Email:</span>
+              <a class="hello__communication" href="mailto:fin.07@bk.ru" target="_self">fin.07@bk.ru</a>
+            </p>
+            <p>
+              <span class="hello__span_title">Адрес:</span>
+              <span>Россия, Московская область, город Волоколамск</span>
+            </p>
+            <p>
+              <span class="hello__span_title">Social:</span>
+              <span class="hello__icons">
+                <a href="https://github.com/spartfin" class="hello__icon">
+                  <svg width="23px" height="23px" viewBox="0 0 512 512">
+                    <g>
+                      <path
+                        d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z" />
+                    </g>
+                  </svg>
+                </a>
+                <a href="https://www.facebook.com/spartfin?ref=bookmarks" class="hello__icon">
+                  <svg height="23px" width="23px" viewBox="0 0 50 50">
+                    <g>
+                      <path
+                        d="M25,46.433c-5.914,0-11.28-2.378-15.121-6.28c-3.902-3.842-6.28-9.207-6.28-15.122c0-5.914,2.378-11.28,6.28-15.183   c3.841-3.902,9.207-6.28,15.121-6.28c5.915,0,11.28,2.378,15.182,6.28c3.842,3.902,6.221,9.269,6.221,15.183   c0,5.915-2.379,11.28-6.221,15.122C36.279,44.055,30.914,46.433,25,46.433z M22.622,21.799h-3.171v3.964h3.171v9.634h3.964v-9.634   h3.963v-3.964h-3.963v-2.012c0-0.671,0.365-1.22,0.791-1.22h3.172v-3.902h-3.172c-2.622,0-4.755,2.317-4.755,5.183V21.799z" />
+                    </g>
+                  </svg>
+                </a>
+                <a href="https://twitter.com/Spartfin" class="hello__icon">
+                  <svg height="23px" width="23px" viewBox="0 0 50 50">
+                    <g>
+                      <path
+                        d="M25.031,3.598c5.915,0,11.28,2.378,15.182,6.219c3.842,3.902,6.219,9.269,6.219,15.183c0,5.915-2.377,11.28-6.219,15.122   c-3.902,3.902-9.268,6.281-15.182,6.281c-5.915,0-11.28-2.379-15.183-6.281C5.946,36.279,3.568,30.914,3.568,25   c0-5.914,2.378-11.28,6.28-15.183C13.75,5.976,19.116,3.598,25.031,3.598z M16.311,22.927c0,2.134,1.463,3.84,3.414,4.268   c-0.305,0.061-0.67,0.121-1.158,0.121c-0.183,0-0.427-0.061-0.731-0.121c0.487,1.707,2.073,2.988,4.024,3.049   c-1.524,1.219-3.354,1.828-5.366,1.828h-1.036c1.89,1.221,4.207,1.951,6.646,1.951c3.962,0,7.134-1.646,9.207-4.023   c2.072-2.379,3.109-5.427,3.109-8.354v-0.549c0.914-0.67,1.646-1.463,2.195-2.256c-0.793,0.305-1.586,0.488-2.5,0.671   c0.914-0.549,1.525-1.402,1.951-2.378c-0.914,0.427-1.828,0.854-2.865,1.036c-0.732-0.914-1.83-1.402-3.109-1.402   c-2.379,0-4.33,1.951-4.33,4.391c0,0.244,0.061,0.549,0.122,0.976c-3.659-0.183-6.769-1.891-8.964-4.573   c-0.365,0.671-0.549,1.402-0.549,2.195c0,1.646,0.61,2.805,1.891,3.598c-0.731,0-1.402-0.184-1.951-0.488V22.927z" />
+                    </g>
+                  </svg>
+                </a>
+                <a href="https://www.instagram.com/spartfin/?hl=ru" class="hello__icon">
+                  <svg height="23px" width="23px" viewBox="0 0 50 50">
+                    <g>
+                      <path
+                        d="M46.432,24.969c0,5.916-2.377,11.281-6.219,15.183c-3.902,3.902-9.268,6.279-15.182,6.279   c-5.915,0-11.28-2.377-15.183-6.279s-6.28-9.268-6.28-15.183c0-5.914,2.378-11.28,6.28-15.183   c3.902-3.841,9.268-6.219,15.183-6.219c5.915,0,11.28,2.378,15.182,6.219C44.055,13.689,46.432,19.055,46.432,24.969z    M22.287,20.702c0.793-0.61,1.89-0.976,2.865-0.976c1.038,0,2.073,0.365,2.866,0.976h7.623v-1.464c0-2.927-2.379-5.305-5.367-5.305   H19.787c-2.866,0-5.244,2.378-5.244,5.305v1.464H22.287z M29.787,22.591c0.305,0.731,0.365,1.464,0.365,2.195   c0,2.805-2.256,5.061-5,5.061c-2.683,0-4.999-2.256-4.999-5.061c0-0.793,0.243-1.464,0.487-2.195h-6.098v7.317   c0,2.865,2.378,5.244,5.244,5.244h10.61c2.926,0,5.305-2.379,5.305-5.244v-7.317H29.787z M25.213,22.653   c-1.098,0-2.134,1.036-2.134,2.134c0,1.158,1.036,2.012,2.134,2.012c0.549,0,1.037-0.184,1.402-0.549   c0.428-0.427,0.672-0.915,0.672-1.463C27.287,23.689,26.311,22.653,25.213,22.653z M30.092,19.542   c-0.305,0-0.549-0.183-0.549-0.549v-1.829c0-0.305,0.244-0.549,0.549-0.549h1.828c0.244,0,0.488,0.244,0.488,0.549v1.829   c0,0.306-0.184,0.549-0.488,0.549H30.092z" />
+                    </g>
+                  </svg>
+                </a>
+              </span>
+            </p>
+            <div class="hello__about_btns">
+              <a href="#" class="hello__site_btn" target="_self">Связь со мной</a>
+              <a href="#" class="hello__site_btn hello__site_btn-gray">Загрузить cv</a>
+            </div>
+          </div>
+          <div class="hello__image_wrap">
+            <img src="img/gambar.jpg" alt="" class="hello__image" />
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="about-me wow slideInLeft">
-            <div class="about-me-title">
-              <h1><span class="point">I am Danny Falcon</span></h1>
-            </div>
-            <div class="about-me-text">
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="row wave-bg">
+          <div class="zigzag wow slideInLeft">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+              y="0px" viewBox="0 0 105 20" xml:space="preserve">
+              <g>
+                <rect class="st0" width="105" height="20" />
+                <g>
+                  <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                </g>
+              </g>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+              y="0px" viewBox="0 0 105 20" xml:space="preserve">
+              <g>
+                <rect class="st0" width="105" height="20" />
+                <g>
+                  <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="col-md-4 wow slideInLeft">
+            <div class="section-sidebar">
+              <h2><span class="point">Skills</span></h2>
               <div class="opacity-box">
                 <p>
-                  I am a Web Developer located in Hartford, Connecticut. I
-                  currently work as a part time Remote Junior Web Developer
-                  for Coolor, located in Las Vegas. I am looking to take on
-                  more work and to increase my skills as a Web Developer.
+                  I am inspired by creating great work with people who are as
+                  passionate as I am about building something awesome.
                 </p>
               </div>
             </div>
-            <div class="about-me-info">
-              <p>
-                <span class="span-title">Phone</span>
-                <span>+1-203-324-5400</span>
-              </p>
-              <p>
-                <span class="span-title">Email</span>
-                <span>dannycrazydev@gmail.com</span>
-              </p>
-              <p>
-                <span class="span-title">Address</span>
-                <span>3113 Lochmere Lane, Hartford, CA 06103</span>
-              </p>
-              <p>
-                <span class="span-title">Social</span>
-                <span class="span-icons">
-                  <a target="_blank" href="https://www.facebook.com/" class="mdi fonts-icons mdi-facebook"></a>
-                  <a target="_blank" href="https://twitter.com/" class="mdi fonts-icons mdi-twitter"></a>
-                  <a target="_blank" href="https://www.instagram.com/" class="mdi fonts-icons mdi-instagram"></a>
-                  <a target="_blank" href="https://www.linkedin.com/" class="mdi fonts-icons mdi-linkedin"></a>
-                  <a target="_blank" href="https://www.behance.net/" class="mdi fonts-icons mdi-behance"></a>
-                  <a target="_blank" href="https://dribbble.com/" class="mdi fonts-icons mdi-dribbble"></a>
-                  <a target="_blank" href="https://medium.com/" class="mdi fonts-icons mdi-medium"></a>
-                  <a target="_blank" href="https://github.com/" class="mdi fonts-icons mdi-github-circle"></a>
-                </span>
-              </p>
-            </div>
-            <div class="about-btns">
-              <a data-toggle="modal" data-target="#contact-modal" href="#" class="site-btn">Contact me</a>
-              <a href="./download/example.pdf" class="site-btn gray-btn">Download cv</a>
-            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="skills" class="section">
-    <div class="container">
-      <div class="row wave-bg">
-        <div class="zigzag wow slideInLeft">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
-            y="0px" viewBox="0 0 105 20" xml:space="preserve">
-            <g>
-              <rect class="st0" width="105" height="20" />
-              <g>
-                <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
-              </g>
-            </g>
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
-            y="0px" viewBox="0 0 105 20" xml:space="preserve">
-            <g>
-              <rect class="st0" width="105" height="20" />
-              <g>
-                <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
-              </g>
-            </g>
-          </svg>
-        </div>
-        <div class="col-md-4 wow slideInLeft">
-          <div class="section-sidebar">
-            <h2><span class="point">Skills</span></h2>
-            <div class="opacity-box">
-              <p>
-                I am inspired by creating great work with people who are as
-                passionate as I am about building something awesome.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-md-6 wow zoomIn">
-              <div class="advantages-box">
-                <h4>Web Development</h4>
-                <div class="opacity-box">
-                  <p>
-                    Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js,
-                    MongoDB, Redis, PostgreSQL, WebStorm.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 wow zoomIn">
-              <hr class="mobile-hr" />
-              <div class="advantages-box">
-                <h4>UI\UX Design</h4>
-                <div class="opacity-box">
-                  <p>
-                    Photoshop, Illustrator, Sketch, Axure, XMind, Prototyping,
-                    Wireframing, User Research, Usability Testing.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 wow zoomIn">
-              <hr />
-              <div class="advantages-box">
-                <h4>Frontend Development</h4>
-                <div class="opacity-box">
-                  <p>
-                    HTML, CSS, LESS, SASS, Bootstrap, Wordpress, Drupal,
-                    Phonegap / Cordova, Ionic, Foundation, Angular.js.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 wow zoomIn">
-              <hr />
-              <div class="advantages-box">
-                <h4>Consulting & SEO Audit</h4>
-                <div class="opacity-box">
-                  <p>
-                    Screaming Frog, Woorank, Raventools, Semrush, Moz, WebCEO,
-                    Google Analytics, ChartBeat, CrazyEgg.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="experience" class="section">
-    <div class="container">
-      <div class="row wave-bg">
-        <div class="zigzag wow slideInLeft">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
-            y="0px" viewBox="0 0 105 20" xml:space="preserve">
-            <g>
-              <rect class="st0" width="105" height="20" />
-              <g>
-                <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
-              </g>
-            </g>
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
-            y="0px" viewBox="0 0 105 20" xml:space="preserve">
-            <g>
-              <rect class="st0" width="105" height="20" />
-              <g>
-                <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
-              </g>
-            </g>
-          </svg>
-        </div>
-        <div class="col-md-4 wow slideInLeft">
-          <div class="section-sidebar">
-            <h2><span class="point">Experience</span></h2>
-            <div class="opacity-box">
-              <p>
-                I partner with startups, organizations and Fortune 500
-                companies to build digital products that help clients overcome
-                challenges and create lasting connections with millions of
-                people every day.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-8 right-box">
-          <div class="row wow zoomIn">
-            <div class="col-md-12">
-              <div class="about-row">
-                <h4 class="about-tittle">Web Developer</h4>
-                <p class="about-info">Coolor Studio</p>
-                <p>May, 2014 — Present</p>
-                <div class="opacity-box">
-                  <p>
-                    Designed and developed user-friendly website, including
-                    optimized check-out page that increased user clicks, and
-                    subsequently customer purchases by 20%.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <div class="row wow zoomIn">
-            <div class="col-md-12">
-              <div class="about-row">
-                <h4 class="about-tittle">Middle Frontend Developer</h4>
-                <p class="about-info">Illskill Agency</p>
-                <p>Jan, 2013 — May, 2014</p>
-                <div class="opacity-box">
-                  <p>
-                    Leading a small team on a variety of development projects
-                    and delivering solutions to meet and exceed clients’
-                    briefs.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <div class="row wow zoomIn">
-            <div class="col-md-12">
-              <div class="about-row">
-                <h4 class="about-tittle">IT Specialist</h4>
-                <p class="about-info">Motion Studio</p>
-                <p>Dec, 2009 — Jan, 2013</p>
-                <div class="opacity-box">
-                  <p>
-                    Revamped web application security applications, minimizing
-                    hacker attacks from 2.3% to 0.02%.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="education" class="section">
-    <div class="container">
-      <div class="row wave-bg">
-        <div class="zigzag wow slideInLeft">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
-            y="0px" viewBox="0 0 105 20" xml:space="preserve">
-            <g>
-              <rect class="st0" width="105" height="20" />
-              <g>
-                <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
-              </g>
-            </g>
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
-            y="0px" viewBox="0 0 105 20" xml:space="preserve">
-            <g>
-              <rect class="st0" width="105" height="20" />
-              <g>
-                <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
-              </g>
-            </g>
-          </svg>
-        </div>
-        <div class="col-md-4 wow slideInLeft">
-          <div class="section-sidebar">
-            <h2><span class="point">Education</span></h2>
-            <div class="opacity-box">
-              <p>
-                All my life I have been driven by my strong belief that
-                education is important. I try to learn something new every
-                single day.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-8 right-box">
-          <div class="row wow zoomIn">
-            <div class="col-md-12">
-              <div class="about-row">
-                <h4 class="about-tittle">Google Developer Training</h4>
-                <p class="about-info">Google</p>
-                <p>Apr, 2015 — May, 2015</p>
-                <div class="opacity-box">
-                  <p>
-                    Learn to use App Engine, Google's Platform as a Service,
-                    to build the backend for web apps that scale not only as
-                    your user base grows but as request volumes peaks with
-                    sudden demand.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <div class="row wow zoomIn">
-            <div class="col-md-12">
-              <div class="about-row">
-                <h4 class="about-tittle">Software Development</h4>
-                <p class="about-info">Boston University</p>
-                <p>Jan, 2005 — May, 2009</p>
-                <div class="opacity-box">
-                  <p>
-                    BSc (Hons) in Software Development. Outstanding Academic
-                    Achievement Award.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="portfolio" class="section section-small-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-title wow slideInLeft">
-            <h2><span class="point">Portfolio</span></h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="portfolio-sort wow slideInLeft">
-            <ul class="list-inline">
-              <li class="colored-link" data-mixitup-control data-filter="all">
-                All projects
-              </li>
-              <li class="colored-link" data-mixitup-control data-filter=".web-sites">
-                Web sites
-              </li>
-              <li class="colored-link" data-mixitup-control data-filter=".ui-ux-design">
-                UI\UX design
-              </li>
-              <li class="colored-link" data-mixitup-control data-filter=".frontend">
-                Frontend
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="portfolio">
+          <div class="col-md-8">
             <div class="row">
-              <div class="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX">
-                <a data-toggle="modal" data-target="#portfolio-modal" data-name="patty" title="Shop web app “Patty”"
-                  href="#" class="portfolio-box">
-                  <div class="portfolio-img">
-                    <img src="media/portfolio-images/portfolio-1.jpg" alt="" />
+              <div class="col-md-6 wow zoomIn">
+                <div class="advantages-box">
+                  <h4>Web Development</h4>
+                  <div class="opacity-box">
+                    <p>
+                      Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js,
+                      MongoDB, Redis, PostgreSQL, WebStorm.
+                    </p>
                   </div>
-                  <div class="portfolio-name">
-                    <span>Shop web app “Patty”</span>
-                  </div>
-                  <div class="portfolio-date">
-                    <span>April, 2017</span>
-                  </div>
-                </a>
+                </div>
               </div>
-              <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
-                <a data-toggle="modal" data-target="#portfolio-modal" data-name="phoenix"
-                  title="Startup website “Phoenix”" href="#" class="portfolio-box">
-                  <div class="portfolio-img">
-                    <img src="media/portfolio-images/portfolio-2.jpg" alt="" />
+              <div class="col-md-6 wow zoomIn">
+                <hr class="mobile-hr" />
+                <div class="advantages-box">
+                  <h4>UI\UX Design</h4>
+                  <div class="opacity-box">
+                    <p>
+                      Photoshop, Illustrator, Sketch, Axure, XMind, Prototyping,
+                      Wireframing, User Research, Usability Testing.
+                    </p>
                   </div>
-                  <div class="portfolio-name">
-                    <span>Startup website “Phoenix”</span>
-                  </div>
-                  <div class="portfolio-date">
-                    <span>March, 2016</span>
-                  </div>
-                </a>
+                </div>
               </div>
-              <div class="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX">
-                <a data-toggle="modal" data-target="#portfolio-modal" data-name="ewesta" title="Corporate chat “eWesta”"
-                  href="#" class="portfolio-box">
-                  <div class="portfolio-img">
-                    <img src="media/portfolio-images/portfolio-3.jpg" alt="" />
-                  </div>
-                  <div class="portfolio-name">
-                    <span>Corporate chat “eWesta”</span>
-                  </div>
-                  <div class="portfolio-date">
-                    <span>December, 2015</span>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
-                <a data-toggle="modal" data-target="#portfolio-modal" data-name="foody"
-                  title="Restaraunt web app “Foody”" href="#" class="portfolio-box">
-                  <div class="portfolio-img">
-                    <img src="media/portfolio-images/portfolio-4.jpg" alt="" />
-                  </div>
-                  <div class="portfolio-name">
-                    <span>Restaraunt web app “Foody”</span>
-                  </div>
-                  <div class="portfolio-date">
-                    <span>May, 2014</span>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-6 mix ui-ux-design wow flipInX">
-                <a data-toggle="modal" data-target="#portfolio-modal" data-name="stark" title="Game website “Stark”"
-                  href="#" class="portfolio-box">
-                  <div class="portfolio-img">
-                    <img src="media/portfolio-images/portfolio-5.jpg" alt="" />
-                  </div>
-                  <div class="portfolio-name">
-                    <span>Game website “Stark”</span>
-                  </div>
-                  <div class="portfolio-date">
-                    <span>June, 2014</span>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX">
-                <a data-toggle="modal" data-target="#portfolio-modal" data-name="te4h" title="Blogger website “Te4h”"
-                  href="#" class="portfolio-box">
-                  <div class="portfolio-img">
-                    <img src="media/portfolio-images/portfolio-6.jpg" alt="" />
-                  </div>
-                  <div class="portfolio-name">
-                    <span>Blogger website “Te4h”</span>
-                  </div>
-                  <div class="portfolio-date">
-                    <span>April, 2014</span>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
-                <a data-toggle="modal" data-target="#portfolio-modal" data-name="lamp" title="Product website “Lamp”"
-                  href="#" class="portfolio-box">
-                  <div class="portfolio-img">
-                    <img src="media/portfolio-images/portfolio-7.jpg" alt="" />
-                  </div>
-                  <div class="portfolio-name">
-                    <span>Product website “Lamp”</span>
-                  </div>
-                  <div class="portfolio-date">
-                    <span>December, 2013</span>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-6 mix ui-ux-design wow flipInX">
-                <a data-toggle="modal" data-target="#portfolio-modal" data-name="zebra" title="Blog web app “Zebra”"
-                  href="#" class="portfolio-box">
-                  <div class="portfolio-img">
-                    <img src="media/portfolio-images/portfolio-8.jpg" alt="" />
-                  </div>
-                  <div class="portfolio-name">
-                    <span>Blog web app “Zebra”</span>
-                  </div>
-                  <div class="portfolio-date">
-                    <span>March, 2013</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="feedback" class="section">
-    <div class="container">
-      <div class="row wave-bg">
-        <div class="zigzag wow slideInLeft">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
-            y="0px" viewBox="0 0 105 20" xml:space="preserve">
-            <g>
-              <rect class="st0" width="105" height="20" />
-              <g>
-                <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
-              </g>
-            </g>
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
-            y="0px" viewBox="0 0 105 20" xml:space="preserve">
-            <g>
-              <rect class="st0" width="105" height="20" />
-              <g>
-                <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
-              </g>
-            </g>
-          </svg>
-        </div>
-        <div class="col-md-4 wow slideInLeft">
-          <div class="section-sidebar">
-            <h2><span class="point">Feedback</span></h2>
-            <div class="opacity-box">
-              <p>
-                Take a look at the reviews of my customers and ensure the
-                quality of my services.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-8 right-box">
-          <div class="row wow zoomIn">
-            <div class="col-md-12">
-              <div class="feedback-block">
-                <img class="feedback-image" src="media/feedback-images/feedback-1.jpg" alt="" />
-                <h4 class="about-tittle">Stacey Don</h4>
-                <p class="about-info">President @ Coolor Studio</p>
-                <div class="opacity-box">
-                  <p>
-                    "Considers problems as a challenge and enjoys finding
-                    creative yet appropriate solutions. Danny is able to work
-                    out his own solutions, but also works well with a group to
-                    solve problems. Performs most jobs well and has the habit
-                    of checking work outcomes. Danny is achieving excellence
-                    in some areas but in others is not yet achieving the
-                    highest standards.""
-                  </p>
+              <div class="col-md-6 wow zoomIn">
+                <hr />
+                <div class="advantages-box">
+                  <h4>Frontend Development</h4>
+                  <div class="opacity-box">
+                    <p>
+                      HTML, CSS, LESS, SASS, Bootstrap, Wordpress, Drupal,
+                      Phonegap / Cordova, Ionic, Foundation, Angular.js.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <hr />
-          <div class="row wow zoomIn">
-            <div class="col-md-12">
-              <div class="feedback-block">
-                <img class="feedback-image" src="media/feedback-images/feedback-2.jpg" alt="" />
-                <h4 class="about-tittle">Anson Shura</h4>
-                <p class="about-info">Project Manager @ Motion Studio</p>
-                <div class="opacity-box">
-                  <p>
-                    “He will always try to do what is required, even if it
-                    means performing tasks that are not in the job description
-                    or if required to do extra work unexpectedly. However, may
-                    sometimes complain about the extra load. Aiming for a top
-                    job in the organization. He sets very high standards,
-                    aware that this will bring attention and promotion.”
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <div class="row wow zoomIn">
-            <div class="col-md-12">
-              <div class="feedback-block">
-                <img class="feedback-image" src="media/feedback-images/feedback-3.jpg" alt="" />
-                <h4 class="about-tittle">Gaylord Jefferson</h4>
-                <p class="about-info">Developer @ Illskill Agency</p>
-                <div class="opacity-box">
-                  <p>
-                    “When working to a firm but realistic deadline, Danny
-                    always completes tasks to a high standard. Care and
-                    accuracy is obvious even when put under pressure of time.
-                    Prepared to work all the extra hours it takes to meet the
-                    deadline.”
-                  </p>
+              <div class="col-md-6 wow zoomIn">
+                <hr />
+                <div class="advantages-box">
+                  <h4>Consulting & SEO Audit</h4>
+                  <div class="opacity-box">
+                    <p>
+                      Screaming Frog, Woorank, Raventools, Semrush, Moz, WebCEO,
+                      Google Analytics, ChartBeat, CrazyEgg.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="section">
-    <div class="container">
-      <div class="row wave-bg">
-        <div class="zigzag wow slideInLeft">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
-            y="0px" viewBox="0 0 105 20" xml:space="preserve">
-            <g>
-              <rect class="st0" width="105" height="20" />
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="row wave-bg">
+          <div class="zigzag wow slideInLeft">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+              y="0px" viewBox="0 0 105 20" xml:space="preserve">
               <g>
-                <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                <rect class="st0" width="105" height="20" />
+                <g>
+                  <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                </g>
               </g>
-            </g>
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
-            y="0px" viewBox="0 0 105 20" xml:space="preserve">
-            <g>
-              <rect class="st0" width="105" height="20" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+              y="0px" viewBox="0 0 105 20" xml:space="preserve">
               <g>
-                <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                <rect class="st0" width="105" height="20" />
+                <g>
+                  <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                </g>
               </g>
-            </g>
-          </svg>
-        </div>
-        <div class="col-md-4 wow slideInLeft">
-          <div class="section-sidebar">
-            <h2><span class="point">Contact</span></h2>
-            <div class="opacity-box">
-              <p>
-                Are you working on something great? I would love to help make
-                it happen! Drop me a letter and start your project right now!
-                Just do it.
-              </p>
-            </div>
+            </svg>
           </div>
-        </div>
-        <form action="#" class="wow slideInRight js-footer-form">
-          <div class="form-wrapper">
-            <div class="col-md-3">
-              <div class="form-group">
-                <input class="form-field js-field-name" type="text" placeholder="Name" required />
-                <span class="form-validation"></span>
-                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
-              </div>
-
-              <div class="form-group">
-                <input class="form-field js-field-email" type="email" placeholder="E-mail" required />
-                <span class="form-validation"></span>
-                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
-              </div>
-            </div>
-            <div class="col-md-5">
-              <div class="form-group">
-                <textarea class="form-field js-field-message" placeholder="Message" required></textarea>
-                <span class="form-validation"></span>
-              </div>
-              <div class="submit-holder">
-                <input class="site-btn" type="submit" value="Send message" />
+          <div class="col-md-4 wow slideInLeft">
+            <div class="section-sidebar">
+              <h2><span class="point">Experience</span></h2>
+              <div class="opacity-box">
+                <p>
+                  I partner with startups, organizations and Fortune 500
+                  companies to build digital products that help clients overcome
+                  challenges and create lasting connections with millions of
+                  people every day.
+                </p>
               </div>
             </div>
           </div>
-        </form>
+          <div class="col-md-8 right-box">
+            <div class="row wow zoomIn">
+              <div class="col-md-12">
+                <div class="about-row">
+                  <h4 class="about-tittle">Web Developer</h4>
+                  <p class="about-info">Coolor Studio</p>
+                  <p>May, 2014 — Present</p>
+                  <div class="opacity-box">
+                    <p>
+                      Designed and developed user-friendly website, including
+                      optimized check-out page that increased user clicks, and
+                      subsequently customer purchases by 20%.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row wow zoomIn">
+              <div class="col-md-12">
+                <div class="about-row">
+                  <h4 class="about-tittle">Middle Frontend Developer</h4>
+                  <p class="about-info">Illskill Agency</p>
+                  <p>Jan, 2013 — May, 2014</p>
+                  <div class="opacity-box">
+                    <p>
+                      Leading a small team on a variety of development projects
+                      and delivering solutions to meet and exceed clients’
+                      briefs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row wow zoomIn">
+              <div class="col-md-12">
+                <div class="about-row">
+                  <h4 class="about-tittle">IT Specialist</h4>
+                  <p class="about-info">Motion Studio</p>
+                  <p>Dec, 2009 — Jan, 2013</p>
+                  <div class="opacity-box">
+                    <p>
+                      Revamped web application security applications, minimizing
+                      hacker attacks from 2.3% to 0.02%.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="row wave-bg">
+          <div class="zigzag wow slideInLeft">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+              y="0px" viewBox="0 0 105 20" xml:space="preserve">
+              <g>
+                <rect class="st0" width="105" height="20" />
+                <g>
+                  <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                </g>
+              </g>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+              y="0px" viewBox="0 0 105 20" xml:space="preserve">
+              <g>
+                <rect class="st0" width="105" height="20" />
+                <g>
+                  <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="col-md-4 wow slideInLeft">
+            <div class="section-sidebar">
+              <h2><span class="point">Education</span></h2>
+              <div class="opacity-box">
+                <p>
+                  All my life I have been driven by my strong belief that
+                  education is important. I try to learn something new every
+                  single day.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 right-box">
+            <div class="row wow zoomIn">
+              <div class="col-md-12">
+                <div class="about-row">
+                  <h4 class="about-tittle">Google Developer Training</h4>
+                  <p class="about-info">Google</p>
+                  <p>Apr, 2015 — May, 2015</p>
+                  <div class="opacity-box">
+                    <p>
+                      Learn to use App Engine, Google's Platform as a Service,
+                      to build the backend for web apps that scale not only as
+                      your user base grows but as request volumes peaks with
+                      sudden demand.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row wow zoomIn">
+              <div class="col-md-12">
+                <div class="about-row">
+                  <h4 class="about-tittle">Software Development</h4>
+                  <p class="about-info">Boston University</p>
+                  <p>Jan, 2005 — May, 2009</p>
+                  <div class="opacity-box">
+                    <p>
+                      BSc (Hons) in Software Development. Outstanding Academic
+                      Achievement Award.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section section-small-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title wow slideInLeft">
+              <h2><span class="point">Portfolio</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="portfolio-sort wow slideInLeft">
+              <ul class="list-inline">
+                <li class="colored-link" data-mixitup-control data-filter="all">
+                  All projects
+                </li>
+                <li class="colored-link" data-mixitup-control data-filter=".web-sites">
+                  Web sites
+                </li>
+                <li class="colored-link" data-mixitup-control data-filter=".ui-ux-design">
+                  UI\UX design
+                </li>
+                <li class="colored-link" data-mixitup-control data-filter=".frontend">
+                  Frontend
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="portfolio">
+              <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX">
+                  <a data-toggle="modal" data-target="#portfolio-modal" data-name="patty" title="Shop web app “Patty”"
+                    href="#" class="portfolio-box">
+                    <div class="portfolio-img">
+                      <img src="media/portfolio-images/portfolio-1.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-name">
+                      <span>Shop web app “Patty”</span>
+                    </div>
+                    <div class="portfolio-date">
+                      <span>April, 2017</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
+                  <a data-toggle="modal" data-target="#portfolio-modal" data-name="phoenix"
+                    title="Startup website “Phoenix”" href="#" class="portfolio-box">
+                    <div class="portfolio-img">
+                      <img src="media/portfolio-images/portfolio-2.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-name">
+                      <span>Startup website “Phoenix”</span>
+                    </div>
+                    <div class="portfolio-date">
+                      <span>March, 2016</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX">
+                  <a data-toggle="modal" data-target="#portfolio-modal" data-name="ewesta"
+                    title="Corporate chat “eWesta”" href="#" class="portfolio-box">
+                    <div class="portfolio-img">
+                      <img src="media/portfolio-images/portfolio-3.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-name">
+                      <span>Corporate chat “eWesta”</span>
+                    </div>
+                    <div class="portfolio-date">
+                      <span>December, 2015</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
+                  <a data-toggle="modal" data-target="#portfolio-modal" data-name="foody"
+                    title="Restaraunt web app “Foody”" href="#" class="portfolio-box">
+                    <div class="portfolio-img">
+                      <img src="media/portfolio-images/portfolio-4.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-name">
+                      <span>Restaraunt web app “Foody”</span>
+                    </div>
+                    <div class="portfolio-date">
+                      <span>May, 2014</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 mix ui-ux-design wow flipInX">
+                  <a data-toggle="modal" data-target="#portfolio-modal" data-name="stark" title="Game website “Stark”"
+                    href="#" class="portfolio-box">
+                    <div class="portfolio-img">
+                      <img src="media/portfolio-images/portfolio-5.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-name">
+                      <span>Game website “Stark”</span>
+                    </div>
+                    <div class="portfolio-date">
+                      <span>June, 2014</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX">
+                  <a data-toggle="modal" data-target="#portfolio-modal" data-name="te4h" title="Blogger website “Te4h”"
+                    href="#" class="portfolio-box">
+                    <div class="portfolio-img">
+                      <img src="media/portfolio-images/portfolio-6.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-name">
+                      <span>Blogger website “Te4h”</span>
+                    </div>
+                    <div class="portfolio-date">
+                      <span>April, 2014</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
+                  <a data-toggle="modal" data-target="#portfolio-modal" data-name="lamp" title="Product website “Lamp”"
+                    href="#" class="portfolio-box">
+                    <div class="portfolio-img">
+                      <img src="media/portfolio-images/portfolio-7.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-name">
+                      <span>Product website “Lamp”</span>
+                    </div>
+                    <div class="portfolio-date">
+                      <span>December, 2013</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 mix ui-ux-design wow flipInX">
+                  <a data-toggle="modal" data-target="#portfolio-modal" data-name="zebra" title="Blog web app “Zebra”"
+                    href="#" class="portfolio-box">
+                    <div class="portfolio-img">
+                      <img src="media/portfolio-images/portfolio-8.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-name">
+                      <span>Blog web app “Zebra”</span>
+                    </div>
+                    <div class="portfolio-date">
+                      <span>March, 2013</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feedback" class="section">
+      <div class="container">
+        <div class="row wave-bg">
+          <div class="zigzag wow slideInLeft">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+              y="0px" viewBox="0 0 105 20" xml:space="preserve">
+              <g>
+                <rect class="st0" width="105" height="20" />
+                <g>
+                  <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                </g>
+              </g>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+              y="0px" viewBox="0 0 105 20" xml:space="preserve">
+              <g>
+                <rect class="st0" width="105" height="20" />
+                <g>
+                  <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="col-md-4 wow slideInLeft">
+            <div class="section-sidebar">
+              <h2><span class="point">Feedback</span></h2>
+              <div class="opacity-box">
+                <p>
+                  Take a look at the reviews of my customers and ensure the
+                  quality of my services.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 right-box">
+            <div class="row wow zoomIn">
+              <div class="col-md-12">
+                <div class="feedback-block">
+                  <img class="feedback-image" src="media/feedback-images/feedback-1.jpg" alt="" />
+                  <h4 class="about-tittle">Stacey Don</h4>
+                  <p class="about-info">President @ Coolor Studio</p>
+                  <div class="opacity-box">
+                    <p>
+                      "Considers problems as a challenge and enjoys finding
+                      creative yet appropriate solutions. Danny is able to work
+                      out his own solutions, but also works well with a group to
+                      solve problems. Performs most jobs well and has the habit
+                      of checking work outcomes. Danny is achieving excellence
+                      in some areas but in others is not yet achieving the
+                      highest standards.""
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row wow zoomIn">
+              <div class="col-md-12">
+                <div class="feedback-block">
+                  <img class="feedback-image" src="media/feedback-images/feedback-2.jpg" alt="" />
+                  <h4 class="about-tittle">Anson Shura</h4>
+                  <p class="about-info">Project Manager @ Motion Studio</p>
+                  <div class="opacity-box">
+                    <p>
+                      “He will always try to do what is required, even if it
+                      means performing tasks that are not in the job description
+                      or if required to do extra work unexpectedly. However, may
+                      sometimes complain about the extra load. Aiming for a top
+                      job in the organization. He sets very high standards,
+                      aware that this will bring attention and promotion.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row wow zoomIn">
+              <div class="col-md-12">
+                <div class="feedback-block">
+                  <img class="feedback-image" src="media/feedback-images/feedback-3.jpg" alt="" />
+                  <h4 class="about-tittle">Gaylord Jefferson</h4>
+                  <p class="about-info">Developer @ Illskill Agency</p>
+                  <div class="opacity-box">
+                    <p>
+                      “When working to a firm but realistic deadline, Danny
+                      always completes tasks to a high standard. Care and
+                      accuracy is obvious even when put under pressure of time.
+                      Prepared to work all the extra hours it takes to meet the
+                      deadline.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="row wave-bg">
+          <div class="zigzag wow slideInLeft">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+              y="0px" viewBox="0 0 105 20" xml:space="preserve">
+              <g>
+                <rect class="st0" width="105" height="20" />
+                <g>
+                  <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                </g>
+              </g>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+              y="0px" viewBox="0 0 105 20" xml:space="preserve">
+              <g>
+                <rect class="st0" width="105" height="20" />
+                <g>
+                  <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="col-md-4 wow slideInLeft">
+            <div class="section-sidebar">
+              <h2><span class="point">Contact</span></h2>
+              <div class="opacity-box">
+                <p>
+                  Are you working on something great? I would love to help make
+                  it happen! Drop me a letter and start your project right now!
+                  Just do it.
+                </p>
+              </div>
+            </div>
+          </div>
+          <form action="#" class="wow slideInRight js-footer-form">
+            <div class="form-wrapper">
+              <div class="col-md-3">
+                <div class="form-group">
+                  <input class="form-field js-field-name" type="text" placeholder="Name" required />
+                  <span class="form-validation"></span>
+                  <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+                </div>
+
+                <div class="form-group">
+                  <input class="form-field js-field-email" type="email" placeholder="E-mail" required />
+                  <span class="form-validation"></span>
+                  <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="form-group">
+                  <textarea class="form-field js-field-message" placeholder="Message" required></textarea>
+                  <span class="form-validation"></span>
+                </div>
+                <div class="submit-holder">
+                  <input class="site-btn" type="submit" value="Send message" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer text-center">
     <div class="container">
